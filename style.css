@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+#ball{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	background: url(https://media.giphy.com/media/Lx8lyPHGfdNjq/giphy.gif) no-repeat left center;
+	background-size: 100%; 
+}
+#ball.newball{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	background: url(images/punch-face.jpg) no-repeat left center;
+	background-size: 100%; 
+}
+#ballHealth{
+	width: 300px;
+	margin: 20px auto 0;
+	border: 1px solid #000;
+}
+#ballHealth div{
+	height: 20px;
+	background: red;
+}
+#ballControl{
+	width: 300px;
+	margin: 20px auto 0;
+	text-align: center;
+}
+#ballControl button{
+	margin: 0 10px;
+	background: green;
+	padding: 5px 10px;
+	color: #fff;
+	border: 0;
+}
+#ballControl button.reset{
+	background: crimson;
+}
